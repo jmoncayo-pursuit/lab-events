@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="main.js"></script>
-  </head>
+<!-- 
   <body>
     <h1>Tic Tac Toe</h1>
     <main id="wrapper">
@@ -15,6 +6,42 @@
         <div class="tic-tac-toe"></div>
         <button>Reset</button>
       </section>
+    </main> -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="./main.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <main class="background" id="wrapper">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls tic-tac-toe">
+            <button id="reset">Reset</button>
+        </section>
     </main>
     <footer>
       <nav>
@@ -22,5 +49,5 @@
         <a href="../pixel-painter/index.html">Pixel Painter</a>
       </nav>
     </footer>
-  </body>
+</body>
 </html>
