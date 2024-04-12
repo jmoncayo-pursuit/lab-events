@@ -32,8 +32,10 @@ header h1 {
   border: 3px solid #393e41;
   display: grid;
   grid-template-columns: repeat(10, 50px); 
-  height: 400px;
-  margin-right: 20px; 
+  grid-template-rows: repeat(10, 50px);
+  margin-right: 20px;
+  transform: scale(1.);
+  transform-origin: top left ;
 }
 
 .cell {
